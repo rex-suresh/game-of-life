@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+  display: flex;
+}
+
+button {
+  position: absolute;
+  left : 100px;
+  top: 20px;
+}
+
+#page {
+  margin: 50px;
+  position: relative;
+}
+
+.cell {
+  position: absolute;
+  border: 0.5px solid grey;
+  aspect-ratio: 1;
+  background-color: black ;
+}
